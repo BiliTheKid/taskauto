@@ -45,8 +45,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-     'rest_framework.authtoken',
-     'rest_auth',
+    'rest_framework.authtoken',
+    'rest_auth',
 
 
 ]
@@ -84,12 +84,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'task.wsgi.application'
 
-#AUTHENTICATION_BACKENDS = ( 'path.to.Backend', )
 
-# EST_AUTH_SERIALIZERS = {
-#     'TOKEN_SERIALIZER': 'Char.serializers.MyCustomTokenSerializer',
-#
-# }
 
 
 
@@ -125,9 +120,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 
 REST_FRAMEWORK = {
-    # 'DEFAULT_PARSER_CLASSES': [
-    #     'rest_framework.parsers.JSONParser',
-    # ] ,
+
   # 'DEFAULT_PERMISSION_CLASSES': [
   #       'rest_framework.permissions.AllowAny',
   #   ],
@@ -143,13 +136,10 @@ REST_FRAMEWORK = {
         #'rest_framework.permissions.AllowAny',
     ),
 
-    # 'DEFAULT_PERMISSION_CLASSES': (
-    #     'rest_framework.permissions.AllowAny',
-    # ),
-
 
 }
 
+#logout get func
 ACCOUNT_LOGOUT_ON_GET = True
 
 
